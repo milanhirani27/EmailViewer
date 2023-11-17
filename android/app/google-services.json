@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "307200613332",
+    "project_id": "emailviewer-66a54",
+    "storage_bucket": "emailviewer-66a54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307200613332:android:985bf4adf86d7a90fb5441",
+        "android_client_info": {
+          "package_name": "com.emailviewer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307200613332-g2lbqketnsseajmi2ekb32luucep24l6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7JRq2h7I3QJITJ2DvWIaAzIj96BOD9s8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307200613332-g2lbqketnsseajmi2ekb32luucep24l6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
