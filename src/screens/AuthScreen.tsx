@@ -1,9 +1,11 @@
 import React from 'react';
 import {
+    Linking,
     View,
 } from 'react-native';
 import { GoogleSignin, GoogleSigninButton } from '@react-native-google-signin/google-signin';
 import { useNavigation } from '@react-navigation/native';
+import auth from '@react-native-firebase/auth';
 
 GoogleSignin.configure({
     webClientId: "307200613332-g2lbqketnsseajmi2ekb32luucep24l6.apps.googleusercontent.com",
@@ -16,6 +18,7 @@ const AuthScreen = () => {
             await GoogleSignin.hasPlayServices();
             const userInfo = await GoogleSignin.signIn();
             console.log('success google login', userInfo);
+
             navigation.navigate("Dashboard");
 
         } catch (error) {
@@ -23,6 +26,7 @@ const AuthScreen = () => {
 
         }
     };
+
 
     return (
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
