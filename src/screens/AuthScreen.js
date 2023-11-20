@@ -18,7 +18,6 @@ const AuthScreen = ({navigation}) => {
         try {
             await GoogleSignin.hasPlayServices();
             const userInfo = await GoogleSignin.signIn();
-            console.log('login data', userInfo);
             setUserData(userInfo);
             navigation.navigate("Dashboard", { username : userInfo.user.email});
         } catch (error) {
