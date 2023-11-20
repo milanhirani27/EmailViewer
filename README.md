@@ -5,6 +5,7 @@ This is an email count application built using React Native that enables users t
 ## Step 1: Clone this Repository
 
 ```bash
+# clone repo
 https://github.com/milanhirani27/EmailViewer.git
 ```
 
@@ -18,6 +19,11 @@ npm install
 yarn install
 ```
 
+#### Notes
+
+> - You can find images and video recordings in the 'screenshots' folder on Github.
+
+---
 ## Setp 3: Start Metro
 
 ```bash
@@ -28,7 +34,7 @@ npm start
 yarn start
 ```
 
-## Step 2: Start your Application
+## Step 4: Start your Application
 
 ### For Android
 
