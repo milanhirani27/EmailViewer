@@ -21,7 +21,7 @@ yarn install
 
 #### Notes
 
-> - You can find images and video recordings in the 'screenshots' folder on Github.
+> - You can find video recordings in the 'screenshots' folder on Github.
 
 ---
 ## Setp 3: Start Metro
