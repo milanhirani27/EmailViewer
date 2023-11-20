@@ -24,6 +24,15 @@ yarn install
 > - You can find video recordings in the 'screenshots' folder on Github.
 
 ---
+
+#### Notes
+
+> - Generate the webClientId from Firebase and insert it into the AuthScreen.js file.
+
+> - Generate an app password using the following URL: "https://myaccount.google.com/apppasswords" and place it into the dashboard.js file.
+
+---
+
 ## Setp 3: Start Metro
 
 ```bash
